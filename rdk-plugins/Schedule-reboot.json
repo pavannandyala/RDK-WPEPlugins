@@ -1,0 +1,11 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Platform"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/rebootSTB.sh"
+  }
+}

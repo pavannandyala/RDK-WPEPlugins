@@ -1,0 +1,14 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Internet"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/card-provision-check.sh",
+    "parameters": [
+      { "option": "start" }
+  ]
+ }
+}

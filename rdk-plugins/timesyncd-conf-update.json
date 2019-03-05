@@ -1,0 +1,12 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Internet",
+  "Time"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/timesyncd-conf-update.sh"
+  }
+}

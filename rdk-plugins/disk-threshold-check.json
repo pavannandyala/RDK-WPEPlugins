@@ -1,0 +1,19 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Internet"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/disk_threshold_check.sh",
+    "parameters": [   
+      { "option": "1" }
+    ],
+   "schedule": {
+    "mode": "relative",
+    "time": "1.20",
+    "interval": "20.00"   
+  }
+}
+}

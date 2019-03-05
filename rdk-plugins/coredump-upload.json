@@ -1,0 +1,14 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Network"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/uploadDumps.sh",
+ "parameters": [
+      { "option": " ", "value": "1" }
+    ]
+  }
+}

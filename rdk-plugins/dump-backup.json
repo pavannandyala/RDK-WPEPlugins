@@ -1,0 +1,14 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Internet"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/etc/dump-backup-service",
+   "parameters": [
+   { "option": "start"}
+   ]
+  }
+}

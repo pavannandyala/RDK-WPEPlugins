@@ -1,0 +1,16 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Network"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/dumpLogs.sh",
+    "schedule": {
+    "mode": "relative",
+    "time": "07",
+    "interval": "07"
+  }
+  }
+}

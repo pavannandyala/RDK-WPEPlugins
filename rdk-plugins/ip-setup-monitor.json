@@ -1,0 +1,12 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Platform",
+  "Network"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/startIpGw.sh"
+  }
+}

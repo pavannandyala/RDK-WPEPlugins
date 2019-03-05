@@ -1,0 +1,16 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Internet"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/hddStatusLogger.sh",
+   "schedule": {
+    "mode": "relative",
+    "time": "1.20",
+    "interval": "30.00"  
+  }
+}
+}

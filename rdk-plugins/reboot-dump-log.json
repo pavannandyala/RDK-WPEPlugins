@@ -1,0 +1,11 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Network"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/bin/true"
+  }
+}

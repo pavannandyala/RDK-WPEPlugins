@@ -1,0 +1,15 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Network"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/usr/bin/ping-telemetry-script.sh",
+    "schedule": {
+    "mode": "relative",
+    "time": "4.00"
+  }
+  }
+}

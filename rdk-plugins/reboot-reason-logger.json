@@ -1,0 +1,14 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Platform"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/reboot-checker.sh",
+    "parameters": [
+      { "option": "bootup"}
+    ]
+  }
+}

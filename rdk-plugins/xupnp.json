@@ -1,0 +1,14 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Platform",
+  "Location",
+  "Time",
+  "Internet"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/usr/bin/xdiscovery.sh"
+  }
+}

@@ -1,0 +1,16 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Network"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/vitalProcessInfo.sh",
+    "schedule": {
+    "mode": "relative",
+    "time": "150",
+    "interval": "600"
+  }
+  }
+}

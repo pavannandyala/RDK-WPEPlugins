@@ -1,0 +1,15 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Platform"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/usr/bin/rmfStreamer",
+    "parameters": [
+      { "option": "--config", "value": "/opt/rmfconfig.ini" },
+      { "option": "--debugconfig", "value": "/etc/debug.ini" }
+    ]
+  }
+}

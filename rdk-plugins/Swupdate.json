@@ -1,0 +1,11 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Internet"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/swupdate_utility.sh"
+  }
+}

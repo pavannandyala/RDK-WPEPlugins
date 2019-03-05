@@ -1,0 +1,16 @@
+{
+ "locator":"libWPEFrameworkLauncher.so",
+ "classname":"Launcher",
+ "precondition":[
+  "Network"
+ ],
+ "autostart":true,
+  "configuration": {
+    "command":"/lib/rdk/logRotateDaemon.sh",
+    "schedule": {
+    "mode": "relative",
+    "time": "2.00",
+    "interval": "1.00" 
+  }
+  }
+}

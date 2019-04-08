@@ -2,7 +2,7 @@
  "locator":"libWPEFrameworkLauncher.so",
  "classname":"Launcher",
  "precondition":[
-  "Platform"
+  "TimeZone"
  ],
  "autostart":true,
   "configuration": {

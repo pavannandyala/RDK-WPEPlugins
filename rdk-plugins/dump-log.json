@@ -2,7 +2,8 @@
  "locator":"libWPEFrameworkLauncher.so",
  "classname":"Launcher",
  "precondition":[
-  "Network"
+  "Network",
+  "Internet
  ],
  "autostart":true,
   "configuration": {

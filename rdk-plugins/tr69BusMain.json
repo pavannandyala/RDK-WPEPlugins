@@ -2,7 +2,8 @@
  "locator":"libWPEFrameworkLauncher.so",
  "classname":"Launcher",
  "precondition":[
-  "Platform"
+  "Platform",
+  "Network"
  ],
  "autostart":true,
   "configuration": {
